@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/b2camp
+    username: b2camp
+    password: root
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+  jpa:
+    generate-ddl: true
+    hibernate:
+      dll-auto: create-drop
+
